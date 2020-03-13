@@ -71,17 +71,20 @@ body{
 	font-size: 13px;
 
 }
+
 /*Parent */
 .navigation{
 	/*Added a new font style from fonts.google*/
 	font-family: 'Dancing Script', cursive;
 	/*margin:40px*/;
 	text-align: center;
-	width: 100%;
-	background-color:Yellow;	
+	width: 100%;	
 	display:flex;
 	justify-content: space-between;
 
+}
+ p{ 
+   font-size: medium;	
 }
 .nav-tag{
 	width: 100%;
@@ -89,6 +92,7 @@ body{
 	align-items: center;
 	justify-content: space-between;
 }
+
 a{
 	text-decoration: none; /*Takes out line or decorations*/
 	/*T R B L*/
@@ -97,13 +101,15 @@ a{
 }
 
 .top-content{
-width: 40%;
-text-align: center;
-display:flex; 
-justify-content: center;
-flex-direction: column;
+	width: 100%;
+	margin: 5 2 3 4;
+	text-align: center;
+	display:flex; 
+	justify-content: center;
+	flex-direction: column;
 
 }
+
 header{
 	margin: 40px 0 40px 0;
 	display: flex;
@@ -111,67 +117,48 @@ header{
 
 }
 
+.button{
+	width: 2px;
+	align-items:left;
+	 /* auto is give it an equal left and right outward*/
 
- h1{
-	/*T R B L */
-	margin: 1%;
-	font-size:60px;
-	text-align: center;
-} 
-
-button{
-	width: 50%;
-	align-items:center;
-	margin: 20px auto; /* auto is give it an equal left and right outward*/
-
-}
-/* header img{ 
-	width: 50%;
-	max-width: 175px;
-	float: right; 
-}*/
-
-.mid{
-	display:flex;
-	justify-content: space-between;
-}
-
-.about{
-	width:47%; 
-}
-
-.middle-img{
-	width: 100%;
-	margin: 12px 0;
-}
-
- .features{
-	width:47%;
- }	
-.mbottom{
-	display: flex;
-	justify-content: space-between;
 }
 
 .services{
-	width:30%; 
-	margin:2% 0 0 0;
+	width:100%; 
+	
 } 
 
-.product{
+.dd, .dm, .iOS {
 	width:30%; 
-	margin:2% 0 30px 0;
+	margin: 30 5 8 7;
+	border:1px solid black;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	padding: 2.5%;
+	
 }
- .vision{ 
-	width:30%; 
-	margin:2% 0 0 0;
-}
- h3{
-	/* T R B L*/
-	margin: 5% 0 0 0; 
+
+.unix, .wd, .ad{
+	width:40%;
+	border:1px solid black;
+	display: flex;
+	float: right;
+	justify-content: space-around;
+	flex-direction: column;
+	align-self: center;
+	padding: 2.5%;
+
+h4{
+	margin: 4%;
+	width: 40%;
 }
 
 footer{
 	text-align: center; 
 	margin: 50px 0; 
-}	 
+} 
+.img{
+	float:right;
+}
