@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+//* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -36,7 +36,7 @@ ol, ul {
 }
 blockquote, q {
 	quotes: none;
-}
+} 
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
@@ -63,4 +63,115 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+body{
+	width: 90%;
+	margin: auto;
+	font-size: 13px;
+
+}
+/*Parent */
+.navigation{
+	/*Added a new font style from fonts.google*/
+	font-family: 'Dancing Script', cursive;
+	/*margin:40px*/;
+	text-align: center;
+	width: 100%;
+	background-color:Yellow;	
+	display:flex;
+	justify-content: space-between;
+
+}
+.nav-tag{
+	width: 100%;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+}
+a{
+	text-decoration: none; /*Takes out line or decorations*/
+	/*T R B L*/
+	margin: 2% 5% 2% 0; 
+	color: grey; 	
+}
+
+.top-content{
+width: 40%;
+text-align: center;
+display:flex; 
+justify-content: center;
+flex-direction: column;
+
+}
+header{
+	margin: 40px 0 40px 0;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+
+ h1{
+	/*T R B L */
+	margin: 1%;
+	font-size:60px;
+	text-align: center;
+} 
+
+button{
+	width: 50%;
+	align-items:center;
+	margin: 20px auto; /* auto is give it an equal left and right outward*/
+
+}
+/* header img{ 
+	width: 50%;
+	max-width: 175px;
+	float: right; 
+}*/
+
+.mid{
+	display:flex;
+	justify-content: space-between;
+}
+
+.about{
+	width:47%; 
+}
+
+.middle-img{
+	width: 100%;
+	margin: 12px 0;
+}
+
+ .features{
+	width:47%;
+ }	
+.mbottom{
+	display: flex;
+	justify-content: space-between;
+}
+
+.services{
+	width:30%; 
+	margin:2% 0 0 0;
+} 
+
+.product{
+	width:30%; 
+	margin:2% 0 30px 0;
+}
+ .vision{ 
+	width:30%; 
+	margin:2% 0 0 0;
+}
+ h3{
+	/* T R B L*/
+	margin: 5% 0 0 0; 
+}
+
+footer{
+	text-align: center; 
+	margin: 50px 0; 
+}	 
